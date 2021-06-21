@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .icon {
+    font-size: 3rem;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    margin: 0 1rem;
+}
+
+.contact .icon.facebook {
+    color: #1877F2;
+    border-color: #1877F2;
+}
+
+.contact .icon.instagram {
+    color: #e95950;
+    border-color: #e95950;
+}
+
+.contact .icon.youtube {
+    color: crimson;
+    border-color: crimson;
+}
+
+.contact .icon.facebook:hover {
+    background-color: #1877F2;
+    color: #fff;
+}
+
+.contact .icon.instagram:hover {
+    color: #fff;
+    background-color: #e95950;
+}
+
+.contact .icon.youtube:hover {
+    color: #fff;
+    background-color: crimson;
+}
