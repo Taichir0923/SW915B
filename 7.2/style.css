@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .top .logo img {
+    width: 260px;
+}
+
+.header .top .search {
+    display: flex;
+}
+
+.header .top .search input {
+    padding: 8px 1rem;
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 460px;
+}
+
+.header .top .search button {
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid #003e57;
+    background-color: #003e57;
+    color: #fff;
+}
+
+.header .top .search input:focus {
+    outline: none;
+}
+
+.header .top .weather {
+    display: flex;
+    text-align: center;
+}
+
+.header .top .weather .item {
+    padding: 0 1.5rem;
+}
+
+.header .top .weather .item:last-child {
+    padding-right: 0 !important;
+    border-left: 1px solid #ccc;
+}
+
+.header .top .weather .item h3 {
+    font-size: 25px;
+    color: #003e57;
+}
+.header .top .weather .item p {
+    font-size: 14px;
+    color: #444;
+}
+
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar .menu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar .menu li {
+    padding: 10px 1.25rem;
+    color: #444;
+    transition: .35s;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.navbar .menu li:hover {
+    background-color: #003e57;
+    color: #fff;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #003e57;
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.banner {
+    margin: auto;
+    width: max-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner img {
+    width: 1000px;
+}
+
+.ontsloh {
+    width: 100%;
+    display: flex;
+}
+
+.ontsloh .tailbar {
+    width: 33%;
+    height: 400px;
+    background-color: #003e57;
+    color: #fff;
+}
+.ontsloh .zurag {
+    width: 67%;
+    height: 400px;
+    background-image: url(http://amjilt.news/wp-content/uploads/2021/07/D439BF09-327A-46E3-9AD2-93D967E05DFA.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
