@@ -1,0 +1,20 @@
+.header {
+    background-color: $headerBG;
+    color: $textGray;
+    border-bottom: $border;
+    @include flexBetween;
+    .logo {
+        width: 200px;
+        margin-left: 13px;
+    }
+    .menu {
+        @include flexBetween;
+        .icon {
+            width: 50px;
+            height: 60px;
+            border-left: $border;
+            @include flexCenter;
+            font-size: 18px;
+        }
+    }
+}

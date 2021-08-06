@@ -1,0 +1,30 @@
+@mixin flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin grid($cols, $rows, $boxHeight) {
+    display: grid;
+    grid-template-columns: repeat($cols, 1fr);
+    grid-template-rows: repeat($rows, $boxHeight);
+    gap: 1rem;
+}
+
+@mixin flexLeftBottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+@mixin background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
