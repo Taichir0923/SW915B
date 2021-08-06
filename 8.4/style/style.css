@@ -66,6 +66,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 18px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header .menu .icon:hover {
+  color: #00b3ff;
 }
 
 .main {
