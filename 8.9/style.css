@@ -1,0 +1,11 @@
+/* .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+} */
+
+.el {
+    grid-column: 1/5;
+}
+/* 5/9 */
+/* 9/13 */
+/* col-4 {) */
